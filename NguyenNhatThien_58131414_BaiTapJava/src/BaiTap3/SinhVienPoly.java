@@ -24,7 +24,7 @@ public abstract class SinhVienPoly {
         if( getDiem() < 5) return "Yếu";
         else if (getDiem() >= 5 && getDiem() < 6.5) return "Trung bình";
         else if (getDiem() >= 6.5 && getDiem() < 7.5) return "Khá";
-        else if (getDiem() >= 7.5 && getDiem() < 9) return "Khá";
+        else if (getDiem() >= 7.5 && getDiem() < 9) return "Giỏi";
         else if (getDiem() >= 9) return "Xuất sắc";
         return "Điểm không hợp lệ";
     }

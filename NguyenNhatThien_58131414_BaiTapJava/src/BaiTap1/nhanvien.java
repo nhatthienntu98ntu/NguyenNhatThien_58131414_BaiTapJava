@@ -28,11 +28,11 @@ public class nhanvien {
     }
     
     public  String getThongTin(nhanvien nv){
-        System.out.println("Ten nhan vien: " + nv.ten);
-        System.out.println("Ten nhan vien: " + nv.tuoi);
-        System.out.println("Ten nhan vien: " + nv.diaChi);
-        System.out.println("Ten nhan vien: " + nv.tienLuog);
-        System.out.println("Ten nhan vien: " + nv.tongGioLam + "\n");
+        System.out.println("Tên nhân viên: " + nv.ten);
+        System.out.println("Tuổi: " + nv.tuoi);
+        System.out.println("Địa chỉ: " + nv.diaChi);
+        System.out.println("Tiền lương: " + nv.tienLuog);
+        System.out.println("Tổng giờ làm: " + nv.tongGioLam + "\n");
         return null;
     }
     
